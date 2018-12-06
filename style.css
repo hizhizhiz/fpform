@@ -1,0 +1,66 @@
+.main-content {
+    display: flex;
+    justify-content: space-around;
+    height: 1000px;
+    width: 100%;
+}
+
+.content-form {
+    background: linear-gradient(#eeefef, #fff 5%);
+    border-radius: 5px;
+    box-shadow:
+            0 0 1px rgba(0, 0, 0, 0.3),
+            0 3px 7px rgba(0, 0, 0, 0.3),
+            0 10px 30px rgba(0, 33, 150, 0.3),
+            inset 0 1px rgba(255, 255, 255, 1),
+            inset 0 -3px 2px rgba(0, 0, 0, 0.25);
+    height: 400px;
+    padding: 20px;
+    margin: 100px auto;
+    width: 436px;
+}
+
+.success-page {
+    background-color: #fff;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.content-success {
+    height: 330px;
+    line-height: 2;
+}
+
+.content-success a {
+    color: white;
+    text-decoration: none;
+}
+
+.subjects {
+    border: 1px solid lightgrey;
+    border-radius: 20px 0 0 20px;
+    box-shadow:
+            0 0 1px rgba(0, 0 , 0, 0.3),
+            0 10px 30px rgba(9, 150, 0, 0.3);
+    height: 400px;
+    overflow: auto;
+    margin-top: 100px;
+    padding: 15px;
+    width: 200px;
+}
+
+.subjects a {
+    color: black;
+    text-decoration: none;
+}
+
+.subjects a:hover {
+    color: grey;
+}
+
+.error {
+    color: red;
+}
